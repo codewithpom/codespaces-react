@@ -1,31 +1,34 @@
-.App {
-  text-align: center;
+/* ChessboardPage.css */
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dark-theme input[type="text"] {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dark-theme button {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+  margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.dark-theme table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.heart {
-  color: #ff0000;
+.dark-theme th, .dark-theme td {
+  border: 1px solid #555555;
+  padding: 8px;
+  text-align: left;
 }
 
-.small {
-  font-size: 0.75rem;
+.dark-theme th {
+  background-color: #444444;
 }
